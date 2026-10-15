@@ -1,213 +1,109 @@
 # Awesome-AI-Coding-Assistants
 
-## Top AI Coding Assistants Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://img.shields.io/badge/awesome-list-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-Coding-Assistants)
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Coding-Assistants?style=social)](https://github.com/ishandutta2007/Awesome-AI-Coding-Assistants/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+> A curated directory of the best **AI coding assistants**, **agentic IDEs**, **codebase-aware copilots**, and **open-source developer productivity tools** for engineers and tech teams.
 
-*Focused on IDE AI Assistants, Codebase-Aware Chat, Completion, Agents & Developer Productivity*
+*Focused on IDE AI Assistants, Codebase-Aware Chat, Autocomplete, Autonomous Coding Agents & Developer Productivity.*
 
 **Last updated: October 2026**
 
+---
 
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Coding Assistants**. These tools live in the editor or terminal, understand your codebase, and help with completion, chat, explanation, refactoring, and multi-step coding tasks.
-
-
-
-**Examples** include GitHub Copilot Enterprise, Cursor, Codeium, Tabnine Enterprise, Amazon Q Developer, Augment Code, Sourcegraph Cody, JetBrains AI, Windsurf, and Supermaven Enterprise (the category leaders).
-
-
-
-**Open-source emphasis**: Codebase-aware coding assistants have strong open options. **Cody** (open components), **Continue**, **Aider**, and related projects enable transparent, self-hostable AI assistance without proprietary lock-in. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[GitHub Copilot Enterprise](https://github.com/features/copilot)**  
-
-  Enterprise AI coding assistant with organization context, policy controls, chat, completion, and agent-style workflows across the GitHub ecosystem.
-
-
-
-- **[Cursor](https://cursor.com/)**  
-
-  AI-first code editor with deep codebase indexing, chat, multi-file edits, and agentic features built for large context windows.
-
-
-
-- **[Codeium](https://codeium.com/)**  
-
-  Fast AI coding assistant offering completion, chat, and search across many IDEs with generous free and team tiers.
-
-
-
-- **[Tabnine Enterprise](https://www.tabnine.com/)**  
-
-  Privacy-focused AI coding assistant with private model options and enterprise codebase awareness.
-
-
-
-- **[Amazon Q Developer](https://aws.amazon.com/q/developer/)**  
-
-  AWS AI coding companion for generation, explanation, and troubleshooting, with strong cloud and enterprise integration.
-
-
-
-- **[Augment Code](https://www.augmentcode.com/)**  
-
-  AI coding platform emphasizing deep repository context and high-quality assistance for professional developers.
-
-
-
-- **[Sourcegraph Cody](https://sourcegraph.com/cody)**  
-
-  Code-aware AI assistant that reads and understands large codebases using Sourcegraph’s code intelligence.
-
-
-
-- **[JetBrains AI](https://www.jetbrains.com/ai/)**  
-
-  AI features integrated into JetBrains IDEs for completion, chat, explanation, and refactoring.
-
-
-
-- **[Windsurf (Codeium)](https://codeium.com/windsurf)**  
-
-  Agentic IDE experience focused on multi-step coding tasks and deep codebase understanding.
-
-
-
-- **[Supermaven Enterprise](https://supermaven.com/)**  
-
-  High-speed AI coding assistant optimized for low-latency completions in professional environments.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Cody (Sourcegraph)](https://github.com/sourcegraph/cody)**  
-
-  Open-source AI coding assistant that reads your entire codebase — provides chat, completion, and context-aware help that can be self-hosted or used with Sourcegraph.
-
-
-
-- **[Continue](https://github.com/continuedev/continue)**  
-
-  Open-source coding assistant framework with IDE integrations, customizable models, and strong support for local and remote LLMs (note: project status may vary after commercial acquisitions; check current maintenance).
-
-
-
-- **[Aider](https://github.com/Aider-AI/aider)**  
-
-  Open-source terminal pair-programming assistant that maps the codebase, edits files, and commits changes with cloud or local models.
-
-
-
-- **[Open WebUI / coding-oriented frontends](https://github.com/open-webui/open-webui)**  
-
-  Self-hosted chat interfaces often used as the UI layer for coding assistants connected to local or remote models.
-
-
-
-- **[LibreChat](https://github.com/danny-avila/LibreChat)**  
-
-  Open-source multi-provider chat interface that can be adapted for coding and codebase-aware workflows.
-
-
-
-- **[Tabby](https://github.com/TabbyML/tabby)**  
-
-  Open-source, self-hosted AI coding assistant focused on completion and privacy-friendly local deployment.
-
-
-
-- **[FauxPilot / local completion stacks](https://github.com/moyix/fauxpilot)**  
-
-  Early open approaches to self-hosted code completion; modern alternatives build on similar local-model ideas.
-
-
-
-- **[Ollama + editor extensions](https://github.com/ollama/ollama)**  
-
-  Local model runtime widely paired with open editor plugins for private coding assistance.
-
-
-
-- **[Community codebase RAG assistants](https://github.com/search?q=codebase+aware+coding+assistant)**  
-
-  Projects that index repositories and answer questions or generate code with full project context.
-
-
-
-- **[Documentation and self-hosting guides](https://sourcegraph.com/docs/cody)**  
-
-  Official and community resources for deploying open, codebase-aware coding assistants.
-
-
-
-### Additional Strong Open-Source Options
-
-- Full codebase-aware assistance with **Cody** open components.
-
-- Customizable IDE assistants via **Continue** and similar frameworks.
-
-- Terminal-native pair programming with **Aider**.
-
-- Privacy-first local completion with **Tabby** or Ollama-based setups.
-
-- Combining open assistants with self-hosted models and vector indexes for complete ownership.
-
-- Accepting that commercial platforms (GitHub Copilot, Cursor, Codeium, Tabnine, Amazon Q, Cody Cloud, JetBrains AI, Windsurf, Supermaven) still lead in polish, multi-repo scale, and seamless IDE experience.
-
-
-
-**Frameworks for building custom systems**: Deploy **Cody** or **Continue** / **Tabby** → connect to local or remote models → index the codebase for context → use in the editor or terminal. Suitable for teams that want transparency and data control. Many developers still prefer commercial coding assistants for convenience and frontier model quality.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Coding assistants may send code snippets or context to model providers. Review data-handling policies and use private/self-hosted options when required. This list is not security or compliance advice.
-
-
+This repository tracks notable **SaaS platforms** and **open-source projects** in the AI developer tools space. These tools operate inside your code editor, IDE, or terminal, understand entire codebases through semantic indexing and RAG, and automate code completions, refactoring, context-aware debugging, and multi-file agentic tasks.
 
 ---
 
-**Made for developers, engineering teams, and open-source advocates.**
+## Table of Contents
 
-Let's keep AI coding assistance powerful, private, and as open as practical.
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [Top SaaS & Hosted AI Coding Assistants](#top-saas--hosted-ai-coding-assistants)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Choose an AI Coding Assistant](#how-to-choose-an-ai-coding-assistant)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Data Privacy](#disclaimer--data-privacy)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global AI code assistant and developer tools market has grown rapidly from **$3.0B–$4.6B in 2025** to an estimated **$7.1B–$9.4B in 2026** (growing at a ~25–30% CAGR), transitioning from basic autocomplete extensions into mission-critical enterprise engineering infrastructure. 
+
+The sector exhibits a **hybrid market structure**: foundation model intelligence and distribution are concentrated among hyperscaler platforms and frontier labs (Microsoft/GitHub, Amazon AWS, OpenAI, Anthropic, Google), while the application and developer experience layer remains **highly fragmented and dynamic**, with agile agentic IDEs, terminal companions, and specialized context engines continuously challenging incumbent market share.
+
+---
+
+## Top SaaS & Hosted AI Coding Assistants
+
+The table below summarizes leading commercial AI coding assistants, sorted by parent company market capitalization or valuation (descending).
+
+| Tool | Company & Valuation / Size | Starting Pricing | Free Tier / Trial Limits | Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Q Developer](https://aws.amazon.com/q/developer/)** | Amazon (Market Cap: ~$2.1T) | **$19/user/month** (Pro Tier) | **Free Forever**: 50 agentic requests/month, 1,000 lines code transformation/month, inline completions, security scans (AWS Builder ID). | AWS-native coding assistant, deep cloud architecture support, enterprise IAM integration, and code transformations. |
+| **[GitHub Copilot](https://github.com/features/copilot)** | Microsoft / GitHub (Parent Cap: ~$3.1T) | **$10/month** (Copilot Pro) / **$19/user/month** (Business) / **$39/user/month** (Enterprise) | **Free Forever**: 2,000 code completions/month and 50 chat messages/month with basic agent workflows. | Industry benchmark assistant with editor extensions, CLI integration, GitHub ecosystem PR and issue automations. |
+| **[Cursor](https://cursor.com/)** | Anysphere (Valuation: ~$29.3B; SpaceX acquisition) | **$20/month** (Pro Tier) | **Free Forever (Hobby)**: 2,000 completions/month, limited slow/standard agent requests; includes 14-day Pro trial with frontier models. | AI-first VS Code fork with deep codebase indexing, multi-file edits, Cursor Composer, and agentic workflows. |
+| **[JetBrains AI Assistant](https://www.jetbrains.com/ai/)** | JetBrains (Valuation: ~$7B est., ~$260M ARR) | **$10/month** (AI Pro) / **$30/month** (AI Ultimate) | **30-day Free Trial** for AI Pro; **AI Free Tier**: unlimited local code completion/local model support, plus limited cloud credits. | Deep IDE-native integration for IntelliJ, PyCharm, WebStorm, and the JetBrains suite with Junie agent capabilities. |
+| **[Windsurf](https://codeium.com/windsurf)** | Codeium / Windsurf (Valuation: ~$1.25B–$2.85B) | **$15/month** (Pro Tier) | **Free Forever**: Unlimited inline completions, 25 daily Cascade agent / premium chat credits, multi-IDE support. | Next-gen agentic IDE powered by the Cascade engine, enabling real-time collaborative human-AI coding and deep flow states. |
+| **[Codeium](https://codeium.com/)** | Codeium (Valuation: ~$1.25B–$2.85B) | **$15/month** (Pro Tier) | **Free Forever**: Unlimited single-line and multi-line code completions across 70+ languages and 40+ IDEs, with standard in-editor chat. | High-speed, privacy-first autocomplete and codebase search supporting VS Code, JetBrains, Vim, Neovim, and Eclipse. |
+| **[Sourcegraph Cody](https://sourcegraph.com/cody)** | Sourcegraph (Valuation: ~$2.6B, ~$40M ARR) | **$16,000/year** (Enterprise Platform minimum) | **30-day Enterprise Trial**; individual access offered through cloud credit allowances and open snapshots. | Enterprise-scale code intelligence and repository-wide context engine capable of navigating massive multi-repo codebases. |
+| **[Augment Code](https://www.augmentcode.com/)** | Augment Inc. (Valuation: ~$977M post-money) | **$20/month** (Developer Tier) | **14-day Free Trial**: Full access to the repository context engine and workspace indexing (requires sign-up verification). | Context-engine focused AI assistant optimized for large monorepos, multi-file software refactors, and complex code architectures. |
+| **[Tabnine Enterprise](https://www.tabnine.com/)** | Tricentis / Tabnine (Acquired 2026; $56M–$102M funding raised) | **$12/user/month** (Dev Tier) / **$39/user/month** (Enterprise) | **14-day Free Trial**: Full enterprise feature trial with private model deployments and team policies (no permanent free tier). | Security- and compliance-oriented coding platform with support for air-gapped VPCs, custom fine-tuned models, and zero data retention. |
+| **[Supermaven](https://supermaven.com/)** | Anysphere / Cursor (Acquired Nov 2024; standalone sunset) | **$10/month** (Legacy Pro; now part of Cursor) | **Free Tier (Legacy)**: Free high-speed autocomplete; absorbed into **Cursor Tab** (Hobby plan includes 2,000 completions). | Pioneer of ultra-low latency completion and 1-million-token context windows, now powering Cursor Tab core infrastructure. |
+
+---
+
+## Open-Source GitHub Projects
+
+Open-source AI coding assistants offer complete transparency, self-hosting capabilities, local LLM execution (via Ollama, vLLM, or LM Studio), and zero vendor lock-in.
+
+*Sorted by GitHub Star Count (descending):*
+
+| Project | Stars | Description |
+| :--- | :--- | :--- |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** | [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Extensible, self-hosted AI interface with native code execution, artifact previews, and multi-model local/remote LLM support. |
+| **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** | [![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers) | Autonomous software development agent platform (formerly OpenDevin) capable of modifying code, executing shell commands, and resolving GitHub issues end-to-end. |
+| **[Cline](https://github.com/cline/cline)** | [![Stars](https://img.shields.io/github/stars/cline/cline?style=social&color=white)](https://github.com/cline/cline/stargazers) | Autonomous coding agent extension for VS Code that executes terminal commands, reads browser pages, and edits project files with human-in-the-loop approvals. |
+| **[Open Interpreter](https://github.com/openinterpreter/openinterpreter)** | [![Stars](https://img.shields.io/github/stars/openinterpreter/openinterpreter?style=social&color=white)](https://github.com/openinterpreter/openinterpreter/stargazers) | Terminal and natural-language computer interface that executes code locally in Python, JavaScript, Shell, and more to automate complex developer workflows. |
+| **[GPT Engineer](https://github.com/AntonOsika/gpt-engineer)** | [![Stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer?style=social&color=white)](https://github.com/AntonOsika/gpt-engineer/stargazers) | CLI tool that builds entire codebases from a single natural language prompt, generating project scaffolds, source files, and test suites automatically. |
+| **[Aider](https://github.com/Aider-AI/aider)** | [![Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=social&color=white)](https://github.com/Aider-AI/aider/stargazers) | Terminal pair programming tool that inspects Git repositories, edits multi-file codebases, writes tests, and automatically formats Git commits. |
+| **[LibreChat](https://github.com/LibreChat-AI/LibreChat)** | [![Stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers) | Enhanced open-source AI platform supporting multiple providers, codebase RAG, file attachments, and code artifact rendering. |
+| **[Continue](https://github.com/continuedev/continue)** | [![Stars](https://img.shields.io/github/stars/continuedev/continue?style=social&color=white)](https://github.com/continuedev/continue/stargazers) | Modular open-source AI coding assistant extension for VS Code and JetBrains, supporting local models (Ollama) and custom enterprise context providers. |
+| **[Tabby](https://github.com/TabbyML/tabby)** | [![Stars](https://img.shields.io/github/stars/TabbyML/tabby?style=social&color=white)](https://github.com/TabbyML/tabby/stargazers) | Self-hosted, private AI coding assistant server providing real-time autocomplete and chat without external cloud API dependencies. |
+| **[FauxPilot](https://github.com/fauxpilot/fauxpilot)** | [![Stars](https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=social&color=white)](https://github.com/fauxpilot/fauxpilot/stargazers) | Self-hosted alternative to GitHub Copilot using NVIDIA Triton and open code generation models for completely on-premise autocompletion. |
+| **[PR-Agent](https://github.com/The-PR-Agent/pr-agent)** | [![Stars](https://img.shields.io/github/stars/The-PR-Agent/pr-agent?style=social&color=white)](https://github.com/The-PR-Agent/pr-agent/stargazers) | Autonomous pull request review agent that provides automated code feedback, security audits, changelog summaries, and PR improvements. |
+| **[Sweep](https://github.com/sweepai/sweep)** | [![Stars](https://img.shields.io/github/stars/sweepai/sweep?style=social&color=white)](https://github.com/sweepai/sweep/stargazers) | AI junior developer agent that turns bug reports and feature tickets directly into tested pull requests on GitHub. |
+| **[Cody (Sourcegraph Core)](https://github.com/sourcegraph/cody-public-snapshot)** | [![Stars](https://img.shields.io/github/stars/sourcegraph/cody-public-snapshot?style=social&color=white)](https://github.com/sourcegraph/cody-public-snapshot/stargazers) | Sourcegraph's open snapshot repository for Cody's VS Code extension, multi-repository context retriever, and semantic search client. |
+
+---
+
+## How to Choose an AI Coding Assistant
+
+1. **For Agentic Editing & Multi-File Tasks:** Tools like **Cursor**, **Windsurf**, **Cline**, and **OpenHands** excel at understanding cross-file dependencies and running shell commands.
+2. **For Terminal & Git Workflows:** **Aider** is the premier choice for terminal pair programming with automated git commit generation.
+3. **For Enterprise Security & Air-Gapped Environments:** **Tabnine**, **Amazon Q Developer**, and self-hosted **Tabby** / **Continue** ensure strict data isolation and IP protection.
+4. **For Free & Open-Source Enthusiasts:** **Continue** paired with local **Ollama** or **vLLM** provides a 100% private, cost-free coding setup.
+
+---
+
+## How to Contribute
+
+Contributions to expand and update this list are warmly welcomed!
+
+1. Fork this repository.
+2. Add or update entries in `README.md` maintaining table formatting, pricing accuracy, free tier limitations, and stargazers badges.
+3. Ensure tools are categorized correctly (SaaS vs. Open Source).
+4. Submit a Pull Request with a clear description of the updates made.
+
+---
+
+## Disclaimer & Data Privacy
+
+- This is a community-curated directory intended for educational and evaluation purposes.
+- Commercial coding assistants may transmit telemetry and code snippets to cloud models. Always consult your organization's security policies and data processing agreements (DPAs) before using cloud-hosted assistants on proprietary codebases.
+
+---
+
+**[Back to Top](#awesome-ai-coding-assistants)**
