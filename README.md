@@ -70,7 +70,7 @@ The table below summarizes leading commercial AI coding assistants, sorted by pa
 
 Open-source AI coding assistants offer complete transparency, self-hosting capabilities, local LLM execution (via Ollama, vLLM, or LM Studio), and zero vendor lock-in. 🛠️
 
-*Sorted by GitHub Stars_Count (descending):*
+*Sorted by GitHub_Stars_Count (descending):*
 
 | Project | GitHub_Stars | Description |
 | :--- | :--- | :--- |
