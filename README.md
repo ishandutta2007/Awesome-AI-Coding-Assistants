@@ -9,7 +9,7 @@
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Coding-Assistants"><img src="https://img.shields.io/badge/awesome--list-brightgreen.svg" alt="Track Awesome List" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Coding-Assistants/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Coding-Assistants?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Coding-Assistants/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Coding-Assistants?style=social" alt="GitHub_Stars" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -70,9 +70,9 @@ The table below summarizes leading commercial AI coding assistants, sorted by pa
 
 Open-source AI coding assistants offer complete transparency, self-hosting capabilities, local LLM execution (via Ollama, vLLM, or LM Studio), and zero vendor lock-in. 🛠️
 
-*Sorted by GitHub Star Count (descending):*
+*Sorted by GitHub Stars_Count (descending):*
 
-| Project | Stars | Description |
+| Project | GitHub_Stars | Description |
 | :--- | :--- | :--- |
 | **[Open WebUI](https://github.com/open-webui/open-webui)** | [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) | Extensible, self-hosted AI interface with native code execution, artifact previews, and multi-model local/remote LLM support. 🌐 |
 | **[OpenHands](https://github.com/All-Hands-AI/OpenHands)** | [![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=social&color=white)](https://github.com/All-Hands-AI/OpenHands/stargazers) | Autonomous software development agent platform (formerly OpenDevin) capable of modifying code, executing shell commands, and resolving GitHub issues end-to-end. 🙌 |
